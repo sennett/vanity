@@ -1,0 +1,22 @@
+h1,h2,h3 {
+	margin:0;
+	padding:0 ;
+}
+
+h1 {
+	font-size: 72px;
+	font-family: gill sans book;
+}
+
+h2 {
+	font-size:45px;
+	margin: 30px 0 25px 0;
+	font-family: gill sans book;
+}
+
+h3 {
+	font-size:23px;
+	font-family: gill sans display;
+	margin-top: 20px;
+	font-weight: bold;
+}

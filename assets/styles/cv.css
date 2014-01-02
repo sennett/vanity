@@ -1,0 +1,81 @@
+html {
+	background-color: white;
+}
+
+body {
+	background-color: white;
+    height: 405mm;
+    width: 297mm;
+    /* to centre page on screen*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.wrap {
+	margin:  10mm;
+	margin-bottom: 0;
+	overflow: auto;
+}
+
+ul, li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.other-employment {
+	width:98%;
+}
+
+ul.other-employment li {
+	list-style-type: circle;
+	margin-left: 32px;
+}
+
+p.intro {
+	margin-top:2px;
+	font-family: gill sans book;
+	font-size: 18px;
+	line-height: 1.6em;
+}
+
+.left, .right {
+	float: left;
+}
+
+.left {
+	width: 75%;
+}
+
+.right {
+	width: 25%;
+	text-align: right;
+}
+
+h2.references {
+	margin-bottom: 19px;
+}
+
+div.references div {
+	float:left;
+	width: 50%;
+}
+
+div.references h3 {
+	margin-top: 3.5px;
+}
+
+p, li {
+	font-family:  Palatino Linotype, Palatino, serif;
+	font-size: 14px;
+	line-height: 1.95em;
+}
+
+
+p {
+	margin: 15px 0;
+}
+
+ul.contact {
+	margin-bottom: 142px;
+}
