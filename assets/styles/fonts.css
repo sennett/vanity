@@ -1,0 +1,20 @@
+@font-face {
+	font-family: gill sans book;
+	src: url("../fonts/GillSansMTPro-Book.otf") format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: gill sans display;
+	src: url("../fonts/GillSansDisplayMTPro-Bold.otf") format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: garamond;
+	src: url("../fonts/GaramondPremrPro.otf") format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}

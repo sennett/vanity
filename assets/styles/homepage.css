@@ -1,0 +1,46 @@
+html {
+	background-color: #3F3F3F;
+}
+
+body {
+	font-family: Palatino Linotype, Palatino, serif;
+	font-size: 14px;
+	line-height: 1.95em;
+	color: #3F3F3F;
+	background-color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: gill sans book;
+	/*text-shadow: 1px 1px 1px #9B9A9A;*/
+}
+
+section {
+	background-color: #D8D8D8;
+}
+
+a {
+	color:#3F3F3F;
+}
+
+section.links > .row > * {
+	border-left: solid 5px;
+	height:100px;
+	padding-top: 38px;
+}
+
+section.links > .row > *:nth-child(1) {
+	border-color: #f00;
+}
+
+section.links > .row > *:nth-child(2) {
+	border-color: #0f0;
+}
+
+section.links > .row > *:nth-child(3) {
+	border-color: #00f;
+}
+
+section.links > .row > *:nth-child(4) {
+	border-color: #ff0;
+}
