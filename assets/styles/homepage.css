@@ -1,27 +1,30 @@
 html {
-	background-color: #3F3F3F;
+	background-color: #d9d9d9;
 }
 
 body {
 	font-family: Palatino Linotype, Palatino, serif;
 	font-size: 14px;
 	line-height: 1.95em;
-	color: #3F3F3F;
+	color: #222;
 	background-color: inherit;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: gill sans book;
-	/*text-shadow: 1px 1px 1px #9B9A9A;*/
 }
 
 section {
-	background-color: #D8D8D8;
+	background-color: #f2f2f2;
 	margin-top: 10px;
 }
 
+section.title {
+	padding: 17px 55px 31px;
+}
+
 a {
-	color:#3F3F3F;
+	color:black;
 }
 
 section.links > .row > * {
