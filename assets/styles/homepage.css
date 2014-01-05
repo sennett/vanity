@@ -11,40 +11,42 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: gill sans book;
+	font-family: gill sans book, sans serif;
 }
 
 section {
 	background-color: #f2f2f2;
-	margin-top: 10px;
 }
 
 section.title {
 	padding: 17px 55px 31px;
+	margin-top: 10px;
 }
 
-a {
-	color:black;
+section.links {
+	font-family: social media icons;
+	text-align: center;
+	margin-bottom: 10px;
+	padding-bottom: 34px;
 }
 
-section.links > .row > * {
-	border-left: solid 5px;
-	height:100px;
-	padding-top: 38px;
+section.links a {
+	color: #636363;
+	font-size: 40px;
 }
 
-section.links > .row > *:nth-child(1) {
-	border-color: #f00;
+section.links a:hover {
+	color: #222;
+	text-decoration: none;
 }
 
-section.links > .row > *:nth-child(2) {
-	border-color: #0f0;
+section.links a.octicon {
+	font-family: octicons;
+	font-size: 27px;
+	position: relative;
+	top: 5px;
 }
 
-section.links > .row > *:nth-child(3) {
-	border-color: #00f;
-}
-
-section.links > .row > *:nth-child(4) {
-	border-color: #ff0;
+.octicon-mark:before {
+	content: '\f00a';
 }
