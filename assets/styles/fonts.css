@@ -18,3 +18,17 @@
 	font-weight: normal;
 	font-style: normal;
 }
+
+@font-face {
+	font-family: social media icons;
+	src: url("../fonts/Socialico.otf") format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: octicons;
+	src: url("../fonts/octicons-bccfe7abf7461ed10568dd044425080f7de09889.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}

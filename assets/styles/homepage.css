@@ -1,47 +1,52 @@
 html {
-	background-color: #3F3F3F;
+	background-color: #d9d9d9;
 }
 
 body {
 	font-family: Palatino Linotype, Palatino, serif;
 	font-size: 14px;
 	line-height: 1.95em;
-	color: #3F3F3F;
+	color: #222;
 	background-color: inherit;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: gill sans book;
-	/*text-shadow: 1px 1px 1px #9B9A9A;*/
+	font-family: gill sans book, sans serif;
 }
 
 section {
-	background-color: #D8D8D8;
+	background-color: #f2f2f2;
+}
+
+section.title {
+	padding: 17px 55px 31px;
 	margin-top: 10px;
 }
 
-a {
-	color:#3F3F3F;
+section.links {
+	font-family: social media icons;
+	text-align: center;
+	margin-bottom: 10px;
+	padding-bottom: 34px;
 }
 
-section.links > .row > * {
-	border-left: solid 5px;
-	height:100px;
-	padding-top: 38px;
+section.links a {
+	color: #636363;
+	font-size: 40px;
 }
 
-section.links > .row > *:nth-child(1) {
-	border-color: #f00;
+section.links a:hover {
+	color: #222;
+	text-decoration: none;
 }
 
-section.links > .row > *:nth-child(2) {
-	border-color: #0f0;
+section.links a.octicon {
+	font-family: octicons;
+	font-size: 27px;
+	position: relative;
+	top: 5px;
 }
 
-section.links > .row > *:nth-child(3) {
-	border-color: #00f;
-}
-
-section.links > .row > *:nth-child(4) {
-	border-color: #ff0;
+.octicon-mark:before {
+	content: '\f00a';
 }
