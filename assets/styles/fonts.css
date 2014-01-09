@@ -1,29 +1,28 @@
 @font-face {
-	font-family: gill sans book;
-	src: url("../fonts/GillSansMTPro-Book.otf") format("opentype");
-	font-weight: normal;
-	font-style: normal;
+	font-family: 'gill sans book';
+	src: url('../fonts/GillSansMTPro-Book.eot?') format('eot'), 
+	     url('../fonts/GillSansMTPro-Book.otf')  format('opentype'),
+	     url('../fonts/GillSansMTPro-Book.woff') format('woff'), 
+	     url('../fonts/GillSansMTPro-Book.ttf')  format('truetype'),
+	     url('../fonts/GillSansMTPro-Book.svg#GillSansMTPro-Book') format('svg');
 }
 
 @font-face {
-	font-family: gill sans display;
-	src: url("../fonts/GillSansDisplayMTPro-Bold.otf") format("opentype");
-	font-weight: normal;
-	font-style: normal;
+	font-family: 'gill sans display';
+	src: url('../fonts/GillSansDisplayMTPro-Bold.eot?') format('eot'), 
+	     url('../fonts/GillSansDisplayMTPro-Bold.otf')  format('opentype'),
+	     url('../fonts/GillSansDisplayMTPro-Bold.woff') format('woff'), 
+	     url('../fonts/GillSansDisplayMTPro-Bold.ttf')  format('truetype'),
+	     url('../fonts/GillSansDisplayMTPro-Bold.svg#GillSansDisplayMTPro-Bold') format('svg');
 }
 
 @font-face {
-	font-family: garamond;
-	src: url("../fonts/GaramondPremrPro.otf") format("opentype");
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: social media icons;
-	src: url("../fonts/Socialico.otf") format("opentype");
-	font-weight: normal;
-	font-style: normal;
+	font-family: 'social media icons';
+	src: url('../fonts/Socialico.eot?') format('eot'), 
+	     url('../fonts/Socialico.otf')  format('opentype'),
+	     url('../fonts/Socialico.woff') format('woff'), 
+	     url('../fonts/Socialico.ttf')  format('truetype'),
+	     url('../fonts/Socialico.svg#Socialico') format('svg');
 }
 
 @font-face {
