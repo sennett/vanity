@@ -71,11 +71,17 @@ p, li {
 	line-height: 1.95em;
 }
 
-
 p {
 	margin: 15px 0;
 }
 
 ul.contact {
-	margin-bottom: 142px;
+	margin-bottom: 111px;
+}
+
+ul.contact img.flag {
+	height: 13px;
+	vertical-align: middle;
+	margin-top: -4px;
+	padding-top: 0;
 }
